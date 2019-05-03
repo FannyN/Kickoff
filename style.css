@@ -123,7 +123,8 @@ body {
     margin: 0;
     background-color: #F6F1EC;
     color: #42413d;
-    font-family: 'Roboto', sans-serif, thin;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-size: 13px;
   }
 
@@ -278,7 +279,7 @@ section {
 
 p {
     font-size: 18px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 @media (max-width:700px) {
     p {
